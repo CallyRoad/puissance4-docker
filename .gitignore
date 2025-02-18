@@ -1,0 +1,14 @@
+# IDE files
+.idea/
+.vscode
+
+# Logs
+*.log
+
+# Cloned projects file
+frontend/*
+backend/*
+
+# However, we would like to see the file so that we can organize it properly.
+!frontend/.gitkeep
+!backend/.gitkeep
