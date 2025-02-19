@@ -4,7 +4,7 @@ services :
   # Service frontend Reactjs
   frontend:
     build:
-      context: ./frontend
+      context: ./frontend/reactjs-puissance4
       dockerfile: Dockerfile
     container_name: puissance4-react-container
     ports:
@@ -17,7 +17,7 @@ services :
   # Service backend Socket.IO
   backend:
     build:
-      context: ./backend
+      context: ./backend/puissance4-socket
       dockerfile: Dockerfile
     container_name: puissance4-server-container
     ports:
